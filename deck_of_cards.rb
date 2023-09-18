@@ -37,6 +37,7 @@ class Deck
 end
 
 deck = Deck.new
+
 puts ".....Shuffling the cards ....."
 puts deck.shuffle
 puts "Drew a card from top of the deck: #{deck.deal}"
